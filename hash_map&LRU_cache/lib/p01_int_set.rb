@@ -80,7 +80,7 @@ class ResizingIntSet
     self[num] << num
     self.count += 1
     resize! if num_buckets < self.count
-
+    
     num
   end
 
